@@ -16,25 +16,25 @@ include = [
 
 [tool.poetry.dependencies]
 python = "<3.11,>=3.8"
-click = "^8.1.3"
-typer = "^0.6.1"
+click = "^8.1.7"
+typer = "^0.9.0"
 dagit = ">=1.0"
-dagster = ">=1.0"
+dagster = "^1.6.5"
 dagster-dbt = ">=0.16"
 cookiecutter = "^2.1.1"
-rich = "^12.5.1"
-dagster-meltano = ">=1.0.0"
+rich = "^13.7.0"
+dagster-meltano = "1.5.3"
 # Dependencies from Meltano EDK, remove when dependency fixed
-structlog = "^21.2.0"
+structlog = "^24.1.0"
 PyYAML = "^6.0.0"
-pydantic = "^1.9.0"
-devtools = "^0.9.0"
+pydantic = "^2.6.1"
+devtools = "^0.12.2"
 
 [tool.poetry.dev-dependencies]
-black = "^22.3.0"
+black = "^24.2.0"
 isort = "^5.10.1"
 flake8 = "^3.9.0"
-pylint = "^2.15.3"
+pylint = "^3.0.3"
 
 [build-system]
 requires = ["poetry-core>=1.0.8"]
